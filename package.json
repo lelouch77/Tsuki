@@ -1,0 +1,37 @@
+{
+  "name": "tsuki",
+  "version": "0.0.1",
+  "description": "Inventory management frontend",
+  "main": "public/app.js",
+  "scripts": {
+    "lint": "tslint src/**/*.ts",
+    "start": "webpack-dev-server --config ./webpack/webpack.dev.js",
+    "prod": "webpack --config ./webpack/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelouch77/Tsuki.git"
+  },
+  "author": "Praveen n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lelouch77/Tsuki/issues"
+  },
+  "homepage": "https://github.com/lelouch77/Tsuki#readme",
+  "dependencies": {
+    "firebase": "^7.6.1",
+    "webpack": "^4.41.5",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-typescript": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.0",
+    "style-loader": "^1.1.2",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4",
+    "webpack-cli": "^3.3.10"
+  }
+}
